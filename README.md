@@ -1,31 +1,20 @@
-# vaper-forge-public
+# Vaper Forge
 
-This is the public wrapper repo for the Vaper Forge site.
+I built Vaper Forge’s site to help people plan a visit, find the right product category, and get quick answers before making the trip. It brings store details, product lanes, FAQs, and the store assistant into one clear visit flow.
 
-I built the full production project in a separate working repo. That repo includes deploy packaging, generated assets, staging output, and client-operational details that make sense during real work but make a GitHub review noisier than it needs to be. This wrapper is the cleaner public version.
-
-## What I built
-
-- A local-business site built to drive store visits, not just look pretty
-- Location, hours, age-gate, and quick-answer content for first-time visitors
-- Visual merchandising and category-driven browsing
-- Assistant and account-aware hooks for deeper customer interaction
-
-## Stack
+## Technology
 
 - HTML5
 - CSS3
 - Vanilla JavaScript
 
-## What this wrapper is for
+## Build decisions
 
-- Public portfolio review
-- Interview walkthroughs
-- A cleaner summary of the project than the production repo shape
+I organized the site around what a visitor needs to know before arriving: where the shop is, when it is open, what it carries, and how to get help. Product availability changes quickly, so the site tells visitors to call when they need a specific item checked instead of implying that every shelf is live inventory.
 
-## What I left out on purpose
+This is the public project overview repository.
 
-- Deployment bundles
-- Generated image packages
-- Live environment glue
-- Client-specific operational details
+## Links
+
+- [Vaper Forge](https://vaperforge.com)
+- [Portfolio project notes](https://portfolio.aerovisus.com/#vaper-forge)
