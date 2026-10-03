@@ -1,23 +1,20 @@
-# Project Notes
+# Vaper Forge project notes
 
-## Why I made a public wrapper
+The site has one practical job before a visit: answer the questions that would otherwise mean another search or a call from the road. Hours and directions are together with product categories, searchable FAQs, and the store assistant.
 
-The production repo does the real work, but it also carries normal client-site baggage: deployment packaging, generated assets, environment-specific glue, and other stuff that is helpful in practice and distracting in a GitHub review. I made this wrapper so the project reads clearly.
+## The inventory call
 
-## What I would point out in an interview
+Exact stock changes too quickly to treat a product list as a live shelf count. The site asks visitors to call if their trip depends on a particular flavor, device, coil, or accessory. That keeps the information useful without promising stock the page cannot confirm.
 
-- I build local-business sites around actual business goals, not just layout
-- I think hard about first-time visitor friction
-- I can push a stronger visual direction without making the site harder to use
-- I can turn a brochure ask into a more useful customer-facing tool
+## The visit details
 
-## What the deeper repo contains
+The page makes hours, directions, age requirements, and common product questions easy to find. The FAQ and assistant can cover basic topics; a person at the shop is the right place to confirm current inventory.
 
-- The full production front end
-- Deployment packaging
-- Generated visual assets
-- Active client iteration and operational details
+## Public repository
 
-## Why it matters
+This repository is a project overview. The production implementation and operational details are not part of this public notes repo.
 
-This project is a good example of how I approach conversion, UX, and practical business value in a real client build.
+## Links
+
+- [Vaper Forge](https://vaperforge.com)
+- [Portfolio notes](https://portfolio.aerovisus.com/#vaper-forge)
